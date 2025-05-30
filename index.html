@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif; text-align: center;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 150px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 150px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  font-size: 50px;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1 style="color: #DEB887; font-family: 'Times New Roman', Times, serif; font-size: 50px; text-align: center;">Fritz Baniqued Portfolio</h1>
+
+<header>
+<img src="fritz.jpg" width="900" height="300">
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li>Bio</li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1 style=" font-weight: 100;">- I am 20 years of age and a Bachelor of Multimedia Art Student from PCU-Dasmarinas. </h1>
+    <h1 style=" font-weight: 100;">- My hobbies are drawing and designing but I am willing to learn other art styles. </h1>
+
+</section>
+
+<section class="section">
+  <h2 class="section-title orange"> </h2>
+  <div class="project"> </div>
+  <img src="dew.jpg" width="350" height="300">
+  <div class="desc">
+<h3 style="color: #DEB887">Product Photography</h3>
+<p>It is standard shot and a commercial edited.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title orange"> </h2>
+  <div class="project"> </div>
+  <img src="belen.jpeg" width="350" height="200">
+  <div class="desc">
+<h3 style="color: #DEB887">DIY Belen</h3>
+<p>It is made out cardboard, glues, colored paper, rock, popsticle stick and printed materials. It was our project for Christmas.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title orange"> </h2>
+  <div class="project"> </div>
+  <img src="fruit.jpeg" width="350" height="200" >
+  <div class="desc">
+<h3 style="color: #DEB887">Fruit Basket</h3>
+<p>It is made out of paper, cotton buds and oil pastel.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title orange"> </h2>
+  <div class="project"> </div>
+  <img src="mark.jpeg"  width="350" height="300" >
+  <div class="desc">
+<h3 style="color: #DEB887">Mark Making</h3>
+<p>The techniques I made are woven, scribbing, hatching and stippling.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title orange"> </h2>
+  <div class="project"> </div>
+  <img src="chair.png"  width="350" height="300">
+  <div class="desc">
+<h3 style="color: #DEB887">3D Chair</h3>
+<p>The techniques I made are mesh and brush.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title orange"> </h2>
+  <div class="project"> </div>
+  <img src="robot.png"  width="350" height="300">
+  <div class="desc">
+<h3 style="color: #DEB887">3D Robot</h3>
+<p>The techniques I made are different cubes.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title orange"> </h2>
+  <div class="project"> </div>
+  <img src="logo.png"  width="350" height="150">
+  <div class="desc">
+<h3 style="color: #DEB887">3D "MAHICA" logo and animation</h3>
+<p>The techniques I made are cube, cylinder, bloom and nurbpath.</p>
+  </div>
+</section>
+
+</body>
+</html>
+
